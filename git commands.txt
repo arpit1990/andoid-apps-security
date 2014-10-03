@@ -1,0 +1,17 @@
+git init <project name>   ===== project new repo
+
+git add .   =================== add all files to staging
+
+git commit -m "message"  ====== snapshot
+
+git status
+
+git log
+
+git diff
+
+git diff --cached
+
+git remote add origin http://github.com/test308tube/xyz.git
+
+git push -u origin master
