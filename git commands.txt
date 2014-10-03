@@ -14,4 +14,35 @@ git diff --cached
 
 git remote add origin http://github.com/test308tube/xyz.git
 
+git push origin master
+
 git push -u origin master
+
+
+
+
+==============================================================
+git SSH Key
+
+ssh-keygen -t rsa -C "shah_arpit17@yahoo.com"
+
+hit enter
+
+enter password
+re-enter password
+
+go to folder and find the public and private keys...
+
+log into githb account
+
+go to account settings
+
+select ssh key
+copy n paste the public key....
+done...!!!
+
+test your key is working or not
+ssh -T git@github.com
+=================================================================
+
+
